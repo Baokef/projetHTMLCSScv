@@ -1,9 +1,26 @@
+/*typographie
+*/
+
 :root {
   --color-primary: #3056d3;
   --color-secondary: #f3f4fe;
   --color-accent: #13c296;
   --color-heading: #637381;
 }
+html {
+  font-size: 62.5%;
+}
+h1 {
+  /*rem= 16px*/
+  font-size: 4.5rem;
+}
+h2 {
+  font-size: 3.6rem;
+}
+h3 {
+  font-size: 2rem;
+}
+
 h1,
 h2,
 h3 {
@@ -14,3 +31,4 @@ h2,
 h3 {
   color: var(--color-heading);
 }
+/*links*/
